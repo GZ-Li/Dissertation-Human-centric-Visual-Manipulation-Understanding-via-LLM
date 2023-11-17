@@ -9,5 +9,5 @@ We propose a pipeline containing two core methods: Visual Information Checking (
 To generate the description of the manipulation between a given image pair, you can call the *get_edits* function in 'pipeline.py' as:
 
 ```bash
-python prompt_captioning.py
+from pipeline import get_edits
 ```
