@@ -11,9 +11,9 @@ import pandas as pd
 import sys
 
 
-Res_lst_path = "res_cap.json"
-API_key_lst_path = "../Week16/key_5.txt"
-Dataset_path = "../EMU_Dataset/emu_dev.jsonl"
+Res_lst_path = "res_cap.json" ### The list of detected manipulations.
+API_key_lst_path = "../Week16/key_5.txt" ### The list of OpenAI API keys
+Dataset_path = "../EMU_Dataset/emu_dev.jsonl" ### The path of EMU dataset.
 
 
 with open(Res_lst_path, 'r') as f:
