@@ -12,3 +12,4 @@ To generate the description of the manipulation between a given image pair, you 
 from pipeline import get_edits
 ```
 The necessary input of this function includes the path of the image pair (or index), the focal point (defaulting to 'all the details'), the maximum iteration times when the pipeline cannot detect any correct manipulation, and a list of keys to call OpenAI API.
+
