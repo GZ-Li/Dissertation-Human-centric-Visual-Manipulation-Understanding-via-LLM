@@ -13,3 +13,9 @@ from pipeline import get_edits
 ```
 The necessary input of this function includes the path of the image pair (or index), the focal point (defaulting to 'all the details'), the maximum iteration times when the pipeline cannot detect any correct manipulation, and a list of keys to call OpenAI API.
 
+'pipeline_main.py' can generate the detected manipulations of all the cases in the given dataset. It can executed by:
+
+```bash
+python pipeline_main.py
+```
+But the dataset should be applied [here](https://jeffda.com/edited-media-understanding) and stored in an exclusive folder called "EMU_Dataset".
