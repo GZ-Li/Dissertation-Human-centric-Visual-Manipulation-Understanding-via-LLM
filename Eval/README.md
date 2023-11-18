@@ -9,3 +9,5 @@ EMU (Edited Media Understanding) dataset doesn't provide the ground truths of ma
 ```bash
 python get_pipeline_response.py
 ```
+
+Finally, we selected the CIDEr Score as our metric and evaluated the predictions on the four downstream tasks based on the [pycocoevalcap](https://github.com/salaniz/pycocoevalcap)
