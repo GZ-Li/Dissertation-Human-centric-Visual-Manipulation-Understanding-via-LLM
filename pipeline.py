@@ -11,7 +11,7 @@ import re
 #### The input subject:
 #### if it's a word or a phrase, remember to add article to ensure the prompt's fluency;
 #### if it's a W-question, just directly input;
-def get_edits(index = "88", Path = "../Images/dev/", device = torch.device("cuda:1"), key_lst = [], k = 3, subject = "all the detils"):
+def get_edits(index = "88", Path = "Images/dev/", device = torch.device("cuda:1"), key_lst = [], k = 3, subject = "all the detils"):
     
     openai.api_key = key_lst[0]
     q_lst = []
