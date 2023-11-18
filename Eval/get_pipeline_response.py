@@ -11,12 +11,12 @@ import pandas as pd
 import sys
 
 
-caps_lst_path = "Random_cap.json"
+res_lst_path = "res_cap.json"
 API_key_lst_path = "../Week16/key_5.txt"
 Dataset_path = "../EMU_Dataset/emu_dev.jsonl"
 
 
-with open("../" + caps_lst_path, 'r') as f:
+with open(res_lst_path, 'r') as f:
     checked_caps = json.load(f)
 with open('Guided_Edits.json', 'r') as f:
     edits_lst = json.load(f)
