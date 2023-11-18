@@ -18,4 +18,4 @@ The necessary input of this function includes the path of the image pair (or ind
 ```bash
 python pipeline_main.py
 ```
-But the dataset should be applied [here](https://jeffda.com/edited-media-understanding) and stored in an exclusive folder called "EMU_Dataset".
+But the dataset should be applied [here](https://jeffda.com/edited-media-understanding) and stored in an exclusive folder called "EMU_Dataset". Besides, the corresponding images need crawling from the URLs provided in the EMU dataset and stored in an exclusive folder called "Images". The environment where it runs should be configured with [BLIP](https://github.com/salesforce/LAVIS).
