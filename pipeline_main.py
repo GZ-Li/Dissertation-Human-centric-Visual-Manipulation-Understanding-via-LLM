@@ -12,10 +12,10 @@ from pipeline import get_edits
 import time
 
 ### Change the file paths
-caps_lst_path = "Random_cap.json"
-guidance_lst_path = '../Guidance.json'
-taxonomy_path = '../Index2G.json'
-API_key_lst_path = "../Week16/key_5.txt"
+caps_lst_path = "Random_cap.json"  ### Dataset path or a list containing all the cases. Aim to fix the order of the generated output list.
+guidance_lst_path = '../Guidance.json' ### The path for a file documenting each case's Focal Point, A dictionary (Index: Focal Point).
+taxonomy_path = '../Index2G.json' ### The taxonomy dictionary. (e.g., {Behaviour: {Environment Context Substitution: 1, Movement Alteration: 2, ...}, Role: {Group Association Indication: 1, Costume Substitution: 2, Virtual Character Introduction: 3}, ...})
+API_key_lst_path = "../Week16/key_5.txt" ### The path for the list of API keys for OpenAI.
 
 ### Read the files
 with open(caps_lst_path, 'r') as f:
